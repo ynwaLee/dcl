@@ -1,0 +1,250 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+CALL_FLAG_FAX	svmtel.h	8;"	d
+CALL_FLAG_VOICE	svmtel.h	7;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -g -O3 -Wall -Werror$/;"	m
+COMM-OBJECT	Makefile	/^COMM-OBJECT = $(COMM-SRCS:%.c=%.o)$/;"	m
+COMM-SRCS	Makefile	/^COMM-SRCS = $(wildcard ..\/..\/common\/*.c)$/;"	m
+CONF_RELOAD_ALL	macli.h	8;"	d
+CONF_RELOAD_DMS	macli.h	6;"	d
+CONF_RELOAD_MFU	macli.h	7;"	d
+CONF_RELOAD_NULL	macli.h	5;"	d
+CPPFLSGS	Makefile	/^CPPFLSGS = $/;"	m
+DMS_CONF_DIR	mfu.h	10;"	d
+DMS_CONF_FILE	mfu.h	11;"	d
+DMS_CONF_PATH_LEN	mfu.h	9;"	d
+HTTP_404_HEADER	mfusrv.h	9;"	d
+HTTP_HEADER_ACCEPT	mfusrv.h	17;"	d
+HTTP_HEADER_CODE	mfusrv.h	10;"	d
+HTTP_HEADER_CONN	mfusrv.h	16;"	d
+HTTP_HEADER_DATE	mfusrv.h	12;"	d
+HTTP_HEADER_END	mfusrv.h	18;"	d
+HTTP_HEADER_LAST	mfusrv.h	15;"	d
+HTTP_HEADER_LEN	mfusrv.h	14;"	d
+HTTP_HEADER_SERVER	mfusrv.h	11;"	d
+HTTP_HEADER_TYPE	mfusrv.h	13;"	d
+INC	Makefile	/^INC = -I..\/..\/include$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L..\/..\/lib -lyaml -lpcap -lpthread -ljson$/;"	m
+MAX_HTTP_HEADER_LEN	mfusrv.h	6;"	d
+MAX_LOG_LEN	mfu.h	14;"	d
+MAX_PARA_NAME_LEN	http_reqpara.h	4;"	d
+MAX_PARA_VALUE_LEN	http_reqpara.h	5;"	d
+MA_BUF_SIZE	mfu.h	13;"	d
+MA_SRV_RCV_DATA	macli.c	261;"	d	file:
+MA_SRV_RCV_HEADER	macli.c	260;"	d	file:
+MFA_PATH_LEN	mfu.h	15;"	d
+MFU_CONF_DIR	mfu.h	6;"	d
+MFU_CONF_FILE	mfu.h	7;"	d
+MFU_CONF_PATH_LEN	mfu.h	5;"	d
+OBJECT	Makefile	/^OBJECT = $(SRCS:%.c=%.o)$/;"	m
+SRCS	Makefile	/^SRCS = $(wildcard .\/*.c)$/;"	m
+STR_MEDIA_REQ_INVALID	mfu.c	11;"	d	file:
+STR_MEDIA_REQ_TOTAL	mfu.c	9;"	d	file:
+STR_MEDIA_REQ_VALID	mfu.c	10;"	d	file:
+STR_MEDIA_RES_INVALID	mfu.c	14;"	d	file:
+STR_MEDIA_RES_TOTAL	mfu.c	12;"	d	file:
+STR_MEDIA_RES_VALID	mfu.c	13;"	d	file:
+STR_SVMMOB_REQ_INVALID	mfu.c	25;"	d	file:
+STR_SVMMOB_REQ_TOTAL	mfu.c	23;"	d	file:
+STR_SVMMOB_REQ_VALID	mfu.c	24;"	d	file:
+STR_SVMMOB_RES_INVALID	mfu.c	28;"	d	file:
+STR_SVMMOB_RES_TOTAL	mfu.c	26;"	d	file:
+STR_SVMMOB_RES_VALID	mfu.c	27;"	d	file:
+STR_SVMTEL_REQ_INVALID	mfu.c	18;"	d	file:
+STR_SVMTEL_REQ_TOTAL	mfu.c	16;"	d	file:
+STR_SVMTEL_REQ_VALID	mfu.c	17;"	d	file:
+STR_SVMTEL_RES_INVALID	mfu.c	21;"	d	file:
+STR_SVMTEL_RES_TOTAL	mfu.c	19;"	d	file:
+STR_SVMTEL_RES_VALID	mfu.c	20;"	d	file:
+SVMMOBILE	mfusrv.h	/^	SVMMOBILE = 2,$/;"	e	enum:svm_systype_e
+SVMTELPHONE	mfusrv.h	/^	SVMTELPHONE = 1,$/;"	e	enum:svm_systype_e
+SVMVOIPA	mfusrv.h	/^	SVMVOIPA = 3,\/\/shiwb$/;"	e	enum:svm_systype_e
+SVMVOIPB	mfusrv.h	/^	SVMVOIPB = 4,\/\/shiwb$/;"	e	enum:svm_systype_e
+__COMMON_HEADER_H__	common_header.h	2;"	d
+__HTTP_REQPARA_H__	http_reqpara.h	2;"	d
+__MACLI_H__	macli.h	2;"	d
+__MFUSRV_H__	mfusrv.h	2;"	d
+__MFU_H__	mfu.h	2;"	d
+__SOCKOP_H__	sockop.h	2;"	d
+__SVMMOB_H__	svmmob.h	2;"	d
+__SVMTEL_H__	svmtel.h	2;"	d
+__SVMVOIPA_H__	svmvoipA.h	2;"	d
+__SVMVOIPB_H__	svmvoipB.h	2;"	d
+appname	macli.h	/^	char *appname;$/;"	m	struct:macli_para_s
+argc	mfu.h	/^	int argc;$/;"	m	struct:cmdline_para_s
+argv	mfu.h	/^	char **argv;$/;"	m	struct:cmdline_para_s
+atomic_add	mfusrv.h	67;"	d
+avg_bytes_persec	mfusrv.h	/^    uint32_t avg_bytes_persec;      \/\/4 byte , 每秒所需字节数,$/;"	m	struct:wav_header
+bits_persample	mfusrv.h	/^    uint16_t bits_persample;        \/\/2 byte , 每个采样需要的bit数$/;"	m	struct:wav_header
+block_align	mfusrv.h	/^    uint16_t block_align;           \/\/2 byte , 数据块对齐单位(每个采样需要的字节数),$/;"	m	struct:wav_header
+c1	http_reqpara.h	/^	int c1;$/;"	m	struct:http_reqpara_s
+c2	http_reqpara.h	/^	int c2;$/;"	m	struct:http_reqpara_s
+callcode	http_reqpara.h	/^    unsigned int callcode; \/\/channel$/;"	m	struct:http_reqpara_s
+callflag	http_reqpara.h	/^	int callflag;$/;"	m	struct:http_reqpara_s
+callflag	svmtel.h	/^	unsigned short callflag;      \/\/ is fax?$/;"	m	struct:svmtel_req_s
+callid	http_reqpara.h	/^	unsigned long long callid;$/;"	m	struct:http_reqpara_s
+callid	svmtel.h	/^	unsigned long long callid;    \/\/callid$/;"	m	struct:svmtel_req_s
+channel	http_reqpara.h	/^	int channel;$/;"	m	struct:http_reqpara_s
+channel	svmtel.h	/^	unsigned short channel;       \/\/ 1 = up, 2 = down.$/;"	m	struct:svmtel_req_s
+clueid	http_reqpara.h	/^	unsigned long long clueid; \/\/ruleid$/;"	m	struct:http_reqpara_s
+cmdline_para_s	mfu.h	/^typedef struct cmdline_para_s {$/;"	s
+cmdline_para_t	mfu.h	/^}cmdline_para_t;$/;"	t	typeref:struct:cmdline_para_s
+data	mfusrv.h	/^    uint8_t data[4];                \/\/4 byte , 'data'$/;"	m	struct:wav_header
+data_size	mfusrv.h	/^    uint32_t data_size;             \/\/4 byte ,$/;"	m	struct:wav_header
+encrypt_wave_header	mfusrv.c	/^int encrypt_wave_header(uint8_t *data, uint32_t data_len)$/;"	f
+file_size	mfusrv.h	/^    uint32_t file_size;             \/\/4 byte , 文件长度$/;"	m	struct:wav_header
+fmt	mfusrv.h	/^    uint8_t fmt[4];                 \/\/4 byte , 'fmt '$/;"	m	struct:wav_header
+fmt_channel	mfusrv.h	/^    uint16_t fmt_channel;           \/\/2 byte , 声道数目，1--单声道；2--双声道$/;"	m	struct:wav_header
+fmt_samples_persec	mfusrv.h	/^    uint32_t fmt_samples_persec;    \/\/4 byte , 采样频率$/;"	m	struct:wav_header
+fmt_size	mfusrv.h	/^    uint32_t fmt_size;              \/\/4 byte , 数值为16或18，18则最后又附加信息$/;"	m	struct:wav_header
+fmt_tag	mfusrv.h	/^    uint16_t fmt_tag;               \/\/2 byte , 编码方式，一般为0x0001$/;"	m	struct:wav_header
+g_counter_flag	macli.c	/^unsigned char g_counter_flag = THREAD_OPR_FLAG_IDLE;$/;"	v
+g_counter_sn	macli.c	/^static unsigned int g_counter_sn = 0;$/;"	v	file:
+g_daemon_flag	main.c	/^unsigned char g_daemon_flag = 1;$/;"	v
+g_ma_srv_rcv_cmd	macli.c	/^unsigned short g_ma_srv_rcv_cmd;$/;"	v
+g_ma_srv_rcv_phase	macli.c	/^unsigned char g_ma_srv_rcv_phase;$/;"	v
+g_ma_srv_rcv_sn	macli.c	/^unsigned short g_ma_srv_rcv_sn;$/;"	v
+g_macli_para	macli.c	/^static macli_para_t g_macli_para;$/;"	v	file:
+g_mfu_count_struct	mfu.c	/^struct count_struct g_mfu_count_struct[] = {$/;"	v	typeref:struct:count_struct
+g_mfu_count_struct_num	mfu.c	/^int g_mfu_count_struct_num = 18;$/;"	v
+g_mfu_counter	mfu.c	/^mfu_counter_t g_mfu_counter;$/;"	v
+g_mfu_mutex	mfu.c	/^pthread_mutex_t g_mfu_mutex;$/;"	v
+g_mfusrv_para	mfusrv.c	/^static mfusrv_para_t g_mfusrv_para;$/;"	v	file:
+g_reload_flag	macli.c	/^static unsigned int g_reload_flag = 0;$/;"	v	file:
+g_server_elmt_ma	macli.c	/^static unsigned char g_server_elmt_ma;$/;"	v	file:
+g_server_elmt_sguard	macli.c	/^static unsigned char g_server_elmt_sguard;$/;"	v	file:
+get_dms_conf	macli.c	/^static int get_dms_conf(macli_para_t *maclipara)$/;"	f	file:
+get_mfu_conf	mfusrv.c	/^static int get_mfu_conf(const char *path, mfusrv_para_t *para)$/;"	f	file:
+get_mfu_conf_path	mfusrv.c	/^static int get_mfu_conf_path(int argc, char *argv[], char *mfu_conf_path)$/;"	f	file:
+get_mfu_svmmob	mfusrv.c	/^static int get_mfu_svmmob(mfusrv_para_t *para)$/;"	f	file:
+get_mfu_svmtel	mfusrv.c	/^static int get_mfu_svmtel(mfusrv_para_t *para)$/;"	f	file:
+get_mfu_svmvoipA	mfusrv.c	/^static int get_mfu_svmvoipA(mfusrv_para_t *para)\/\/shiwb$/;"	f	file:
+get_mfu_svmvoipB	mfusrv.c	/^static int get_mfu_svmvoipB(mfusrv_para_t *para)\/\/shiwb$/;"	f	file:
+get_reload_flag	macli.c	/^unsigned int get_reload_flag(void)$/;"	f
+get_status	macli.c	/^static uint16_t get_status(void)$/;"	f	file:
+get_valid_svmmobfd	svmmob.c	/^static int get_valid_svmmobfd(ipport_t *svmmob_addr, http_reqpara_t *reqpara, unsigned int *filesize)$/;"	f	file:
+get_valid_svmtelfd	svmtel.c	/^static int get_valid_svmtelfd(ipport_t *svmtel_addr, char *svmtel_reqbuf, int len)$/;"	f	file:
+get_valid_svmvoipAfd	svmvoipA.c	/^static int get_valid_svmvoipAfd(ipport_t *svmvoipa_addr, http_reqpara_t *reqpara, unsigned int *filesize)$/;"	f	file:
+get_valid_svmvoipBfd	svmvoipB.c	/^static int get_valid_svmvoipBfd(ipport_t *svmvoipB_addr, http_reqpara_t *reqpara, unsigned int *filesize)$/;"	f	file:
+http_reqpara_entry_parse	http_reqpara.c	/^static int http_reqpara_entry_parse(const char *str, http_reqpara_t *para)$/;"	f	file:
+http_reqpara_get	http_reqpara.c	/^int http_reqpara_get(char *parabuf, const char *buf)$/;"	f
+http_reqpara_parse	http_reqpara.c	/^int http_reqpara_parse(const char *str, http_reqpara_t *para)$/;"	f
+http_reqpara_s	http_reqpara.h	/^typedef struct http_reqpara_s {$/;"	s
+http_reqpara_show	http_reqpara.c	/^void http_reqpara_show(http_reqpara_t *http_reqpara)$/;"	f
+http_reqpara_t	http_reqpara.h	/^}http_reqpara_t;$/;"	t	typeref:struct:http_reqpara_s
+i1	http_reqpara.h	/^	int i1;$/;"	m	struct:http_reqpara_s
+i2	http_reqpara.h	/^	int i2;$/;"	m	struct:http_reqpara_s
+init_log_para	mfu.c	/^void init_log_para(void)$/;"	f
+ip	mfu.h	/^	char ip[16];$/;"	m	struct:ipport_s
+ipport_s	mfu.h	/^typedef struct ipport_s {$/;"	s
+ipport_t	mfu.h	/^}ipport_t;$/;"	t	typeref:struct:ipport_s
+ma_addr	macli.h	/^	ipport_t ma_addr;$/;"	m	struct:macli_para_s
+ma_cmd_parser	macli.c	/^static int ma_cmd_parser(uint16_t cmd, uint16_t sn, uint8_t *pkt, uint16_t pkt_len)$/;"	f	file:
+ma_cmd_reload	macli.c	/^static int ma_cmd_reload(uint8_t *data, uint32_t data_len)$/;"	f	file:
+ma_cmd_send_counter	macli.c	/^static int ma_cmd_send_counter(int sockfd)$/;"	f	file:
+ma_srv_init	macli.c	/^static int ma_srv_init(int fd)$/;"	f	file:
+ma_srv_recv	macli.c	/^static int ma_srv_recv(int fd)$/;"	f	file:
+ma_srv_send	macli.c	/^static int ma_srv_send(int fd)$/;"	f	file:
+macli_para_init	macli.c	/^static int macli_para_init(macli_para_t *maclipara, cmdline_para_t *cmdlpara)$/;"	f	file:
+macli_para_s	macli.h	/^typedef struct macli_para_s {$/;"	s
+macli_para_t	macli.h	/^}macli_para_t;$/;"	t	typeref:struct:macli_para_s
+macli_thread	macli.c	/^void *macli_thread(void *arg)$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+media_req_invalid	mfu.h	/^	unsigned long long media_req_invalid;$/;"	m	struct:mfu_counter_s
+media_req_total	mfu.h	/^	unsigned long long media_req_total;$/;"	m	struct:mfu_counter_s
+media_req_valid	mfu.h	/^	unsigned long long media_req_valid;$/;"	m	struct:mfu_counter_s
+media_res_invalid	mfu.h	/^	unsigned long long media_res_invalid;$/;"	m	struct:mfu_counter_s
+media_res_total	mfu.h	/^	unsigned long long media_res_total;$/;"	m	struct:mfu_counter_s
+media_res_valid	mfu.h	/^	unsigned long long media_res_valid;$/;"	m	struct:mfu_counter_s
+mfu_applog	mfu.c	/^void mfu_applog(char *buff, const char *pfile, const char *pfunc, int line, const char *fmt, ...)$/;"	f
+mfu_counter_s	mfu.h	/^typedef struct mfu_counter_s {$/;"	s
+mfu_counter_t	mfu.h	/^}mfu_counter_t;$/;"	t	typeref:struct:mfu_counter_s
+mfu_mutex_init	mfu.c	/^inline void mfu_mutex_init(void)$/;"	f
+mfu_mutex_lock	mfu.c	/^inline void mfu_mutex_lock(void)$/;"	f
+mfu_mutex_unlock	mfu.c	/^inline void mfu_mutex_unlock(void)$/;"	f
+mfuaddr	mfusrv.h	/^	ipport_t mfuaddr;$/;"	m	struct:mfusrv_para_s
+mfusrv_deal_request	mfusrv.c	/^static void mfusrv_deal_request(int listenfd)$/;"	f	file:
+mfusrv_para_destroy	mfusrv.c	/^void mfusrv_para_destroy(mfusrv_para_t *para)$/;"	f
+mfusrv_para_get	mfusrv.c	/^mfusrv_para_t *mfusrv_para_get(void)$/;"	f
+mfusrv_para_init	mfusrv.c	/^int mfusrv_para_init(mfusrv_para_t *mfusrvpara, cmdline_para_t *cmdlpara)$/;"	f
+mfusrv_para_s	mfusrv.h	/^typedef struct mfusrv_para_s {$/;"	s
+mfusrv_para_t	mfusrv.h	/^}mfusrv_para_t;$/;"	t	typeref:struct:mfusrv_para_s
+mfusrv_thread	mfusrv.c	/^void *mfusrv_thread(void *arg)$/;"	f
+next	mfu.h	/^	struct ipport_s *next;$/;"	m	struct:ipport_s	typeref:struct:ipport_s::ipport_s
+online	http_reqpara.h	/^	unsigned int online;$/;"	m	struct:http_reqpara_s
+pack_svmmob_req	svmmob.c	/^static int pack_svmmob_req(char *buf, http_reqpara_t *reqpara) $/;"	f	file:
+pack_svmtel_req	svmtel.c	/^static int pack_svmtel_req(svmtel_req_t *req, char *buf)$/;"	f	file:
+pack_svmvoipA_req	svmvoipA.c	/^static int pack_svmvoipA_req(char *buf, http_reqpara_t *reqpara) $/;"	f	file:
+pack_svmvoipB_req	svmvoipB.c	/^static int pack_svmvoipB_req(char *buf, http_reqpara_t *reqpara) $/;"	f	file:
+pid	macli.h	/^	unsigned int pid;	$/;"	m	struct:macli_para_s
+port	mfu.h	/^	unsigned short port;$/;"	m	struct:ipport_s
+register_ma_server	macli.c	/^static void register_ma_server(void)$/;"	f	file:
+register_sguard_server	macli.c	/^static void register_sguard_server(void)$/;"	f	file:
+reload_ma_connect	macli.c	/^static void reload_ma_connect(void)$/;"	f	file:
+riff	mfusrv.h	/^    uint8_t riff[4];                \/\/4 byte , 'RIFF'$/;"	m	struct:wav_header
+riff_type	mfusrv.h	/^    uint8_t riff_type[4];           \/\/4 byte , 'WAVE'$/;"	m	struct:wav_header
+scase	svmtel.h	/^	unsigned short scase;         \/\/ is case?$/;"	m	struct:svmtel_req_s
+set_reload_flag	macli.c	/^void set_reload_flag(unsigned int flag)$/;"	f
+sguard_addr	macli.h	/^	ipport_t sguard_addr;$/;"	m	struct:macli_para_s
+sguard_srv_init	macli.c	/^static int sguard_srv_init(int fd)$/;"	f	file:
+sguard_srv_recv	macli.c	/^static int sguard_srv_recv(int fd)$/;"	f	file:
+sguard_srv_send	macli.c	/^static int sguard_srv_send(int fd)$/;"	f	file:
+sn	macli.h	/^	unsigned short sn;$/;"	m	struct:macli_para_s
+sock_connect	sockop.c	/^int sock_connect(const char *ip, unsigned short port)$/;"	f
+sock_listen	sockop.c	/^int sock_listen(const char *ip, unsigned short port)$/;"	f
+sock_readable	sockop.c	/^bool sock_readable(int sockfd, int sec, int usec)$/;"	f
+sock_recv	sockop.c	/^int sock_recv(int sockfd, void *buf, int size, int *recved)$/;"	f
+sock_send	sockop.c	/^int sock_send(int sockfd, void *buf, int size, int *sended)$/;"	f
+stime	svmtel.h	/^	unsigned short stime;         \/\/ is online?$/;"	m	struct:svmtel_req_s
+svm_systype_e	mfusrv.h	/^typedef enum svm_systype_e {$/;"	g
+svm_systype_t	mfusrv.h	/^}svm_systype_t;$/;"	t	typeref:enum:svm_systype_e
+svmmob_addr	mfusrv.h	/^	ipport_t *svmmob_addr;$/;"	m	struct:mfusrv_para_s
+svmmob_req_invalid	mfu.h	/^	unsigned long long svmmob_req_invalid;$/;"	m	struct:mfu_counter_s
+svmmob_req_total	mfu.h	/^	unsigned long long svmmob_req_total;$/;"	m	struct:mfu_counter_s
+svmmob_req_valid	mfu.h	/^	unsigned long long svmmob_req_valid;$/;"	m	struct:mfu_counter_s
+svmmob_res_invalid	mfu.h	/^	unsigned long long svmmob_res_invalid;$/;"	m	struct:mfu_counter_s
+svmmob_res_total	mfu.h	/^	unsigned long long svmmob_res_total;$/;"	m	struct:mfu_counter_s
+svmmob_res_valid	mfu.h	/^	unsigned long long svmmob_res_valid;$/;"	m	struct:mfu_counter_s
+svmmob_thread	svmmob.c	/^void *svmmob_thread(void *arg)$/;"	f
+svmtel_addr	mfusrv.h	/^	ipport_t *svmtel_addr;$/;"	m	struct:mfusrv_para_s
+svmtel_req_invalid	mfu.h	/^	unsigned long long svmtel_req_invalid;$/;"	m	struct:mfu_counter_s
+svmtel_req_s	svmtel.h	/^typedef struct svmtel_req_s {$/;"	s
+svmtel_req_t	svmtel.h	/^}svmtel_req_t;$/;"	t	typeref:struct:svmtel_req_s
+svmtel_req_total	mfu.h	/^	unsigned long long svmtel_req_total;$/;"	m	struct:mfu_counter_s
+svmtel_req_valid	mfu.h	/^	unsigned long long svmtel_req_valid;$/;"	m	struct:mfu_counter_s
+svmtel_res_invalid	mfu.h	/^	unsigned long long svmtel_res_invalid;$/;"	m	struct:mfu_counter_s
+svmtel_res_total	mfu.h	/^	unsigned long long svmtel_res_total;$/;"	m	struct:mfu_counter_s
+svmtel_res_valid	mfu.h	/^	unsigned long long svmtel_res_valid;$/;"	m	struct:mfu_counter_s
+svmtel_thread	svmtel.c	/^void *svmtel_thread(void *arg)$/;"	f
+svmvoipA_addr	mfusrv.h	/^	ipport_t *svmvoipA_addr;$/;"	m	struct:mfusrv_para_s
+svmvoipA_req_invalid	mfu.h	/^	unsigned long long svmvoipA_req_invalid;$/;"	m	struct:mfu_counter_s
+svmvoipA_req_total	mfu.h	/^	unsigned long long svmvoipA_req_total;$/;"	m	struct:mfu_counter_s
+svmvoipA_req_valid	mfu.h	/^	unsigned long long svmvoipA_req_valid;$/;"	m	struct:mfu_counter_s
+svmvoipA_res_invalid	mfu.h	/^	unsigned long long svmvoipA_res_invalid;$/;"	m	struct:mfu_counter_s
+svmvoipA_res_total	mfu.h	/^	unsigned long long svmvoipA_res_total;$/;"	m	struct:mfu_counter_s
+svmvoipA_res_valid	mfu.h	/^	unsigned long long svmvoipA_res_valid;$/;"	m	struct:mfu_counter_s
+svmvoipA_thread	svmvoipA.c	/^void *svmvoipA_thread(void *arg)$/;"	f
+svmvoipB_addr	mfusrv.h	/^	ipport_t *svmvoipB_addr;$/;"	m	struct:mfusrv_para_s
+svmvoipB_req_invalid	mfu.h	/^	unsigned long long svmvoipB_req_invalid;$/;"	m	struct:mfu_counter_s
+svmvoipB_req_total	mfu.h	/^	unsigned long long svmvoipB_req_total;$/;"	m	struct:mfu_counter_s
+svmvoipB_req_valid	mfu.h	/^	unsigned long long svmvoipB_req_valid;$/;"	m	struct:mfu_counter_s
+svmvoipB_res_invalid	mfu.h	/^	unsigned long long svmvoipB_res_invalid;$/;"	m	struct:mfu_counter_s
+svmvoipB_res_total	mfu.h	/^	unsigned long long svmvoipB_res_total;$/;"	m	struct:mfu_counter_s
+svmvoipB_res_valid	mfu.h	/^	unsigned long long svmvoipB_res_valid;$/;"	m	struct:mfu_counter_s
+svmvoipB_thread	svmvoipB.c	/^void *svmvoipB_thread(void *arg)$/;"	f
+systype	http_reqpara.h	/^	int systype;$/;"	m	struct:http_reqpara_s
+transfer_data_stream	svmmob.c	/^static int transfer_data_stream(int svmmobfd, int sockfd, unsigned int filesize)$/;"	f	file:
+transfer_data_stream	svmtel.c	/^static int transfer_data_stream(int svmtelfd, int sockfd, svmtel_req_t *req)$/;"	f	file:
+transfer_data_stream	svmvoipA.c	/^static int transfer_data_stream(int svmvoipafd, int sockfd, unsigned int filesize)$/;"	f	file:
+transfer_data_stream	svmvoipB.c	/^static int transfer_data_stream(int svmvoipbfd, int sockfd, unsigned int filesize)$/;"	f	file:
+valcopy	svmmob.c	/^static int valcopy(unsigned long srcval, int size, void *dstbuf, int offset, int flag)$/;"	f	file:
+valcopy_voipA	svmvoipA.c	/^static int valcopy_voipA(unsigned long srcval, int size, void *dstbuf, int offset, int flag)$/;"	f	file:
+valcopy_voipB	svmvoipB.c	/^static int valcopy_voipB(unsigned long srcval, int size, void *dstbuf, int offset, int flag)$/;"	f	file:
+vocfile	http_reqpara.h	/^	char vocfile[MAX_PARA_VALUE_LEN];$/;"	m	struct:http_reqpara_s
+wav_header	mfusrv.h	/^struct wav_header {$/;"	s
+xapplog	mfu.h	76;"	d

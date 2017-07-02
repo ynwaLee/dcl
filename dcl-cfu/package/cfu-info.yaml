@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+cfu:
+  version: 2.01.BUILDSTR
+  config-path: /usr/local/etc/cfu/
+  set-config-path: 0
+  executives:
+  - exec: 1
+    cmd: cfu
+    status: daemon,keepalive
+...

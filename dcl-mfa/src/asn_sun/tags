@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASN_CALLBACK	asn.h	/^typedef void (*ASN_CALLBACK)(unsigned int tag, int constructed, unsigned char * content, int contentlen, unsigned int * layer, int curlayer, void * para);$/;"	t
+PKT_SIZE	test.c	5;"	d	file:
+_ASN_H_	asn.h	3;"	d
+asncallback	test.c	/^void asncallback(unsigned int tag, int constructed, unsigned char * content, int contentlen, unsigned int *layer, int curlayer, void * para)$/;"	f
+calc_unsure_len	asn.c	/^int calc_unsure_len(unsigned char * pkt, int maxlen)$/;"	f
+deasn	asn.c	/^int deasn(unsigned char * pkt, int len, void * para, unsigned int * layer, int cur_layer, int max_layers, ASN_CALLBACK asn_callback)$/;"	f
+get_tlc	asn.c	/^int get_tlc(unsigned char * pkt, int len, unsigned int * ptag, int * ptaglen, int * pconstructed, unsigned char ** pcontent, int * pcontentlen)$/;"	f
+main	test.c	/^int main(void)$/;"	f

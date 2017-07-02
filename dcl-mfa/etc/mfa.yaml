@@ -1,0 +1,35 @@
+%YAML 1.1
+---
+
+svmmob:
+- id: 1
+  ip: 192.168.40.26
+  port: 9001
+voipA:
+- id: 1
+  ip: 192.168.40.26
+  port: 2012
+voipB:
+- id: 1
+  ip: 192.168.40.26
+  port: 2013
+pathsmobl:
+- id: 1
+  path: /home/svmmob
+- id: 2
+  path: /root/svmmob
+pathsvoipa:
+- id: 1
+  path: /home/voipA
+- id: 2
+  path: /root/voipA
+pathsvoipb:
+- id: 1
+  path: /home/voipB
+- id: 2
+  path: /root/voipB
+log:
+  level: info
+  mask: 0
+
+...

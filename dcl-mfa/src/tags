@@ -1,0 +1,194 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASN_CALLBACK	asn.h	/^typedef void (*ASN_CALLBACK)(unsigned int tag, int constructed, unsigned char * content, int contentlen, unsigned int * layer, int curlayer, void * para);$/;"	t
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -g -O3 -Wall -Werror$/;"	m
+CLIENT_SYSTEM_MFU	ftransfer.h	7;"	d
+CLIENT_SYSTEM_SVM	ftransfer.h	8;"	d
+COMM-OBJECT	Makefile	/^COMM-OBJECT = $(COMM-SRCS:%.c=%.o)$/;"	m
+COMM-SRCS	Makefile	/^COMM-SRCS = $(wildcard ..\/..\/common\/*.c)$/;"	m
+CONF_RELOAD_ALL	macli.h	8;"	d
+CONF_RELOAD_DMS	macli.h	6;"	d
+CONF_RELOAD_MFA	macli.h	7;"	d
+CONF_RELOAD_NULL	macli.h	5;"	d
+CPPFLSGS	Makefile	/^CPPFLSGS = $/;"	m
+DMS_CONF_DIR	mfa.h	9;"	d
+DMS_CONF_FILE	mfa.h	10;"	d
+DMS_CONF_PATH_LEN	mfa.h	8;"	d
+INC	Makefile	/^INC = -I..\/..\/include$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L..\/..\/lib -lyaml -lpcap -lpthread -ljson$/;"	m
+MAX_LOG_LEN	mfa.h	13;"	d
+MA_BUF_SIZE	mfa.h	12;"	d
+MA_SRV_RCV_DATA	macli.c	226;"	d	file:
+MA_SRV_RCV_HEADER	macli.c	225;"	d	file:
+MFA_CONF_DIR	mfa.h	5;"	d
+MFA_CONF_FILE	mfa.h	6;"	d
+MFA_CONF_PATH_LEN	mfa.h	4;"	d
+MFA_PATH_LEN	mfa.h	14;"	d
+OBJECT	Makefile	/^OBJECT = $(SRCS:%.c=%.o)$/;"	m
+PKT_SIZE	asn.c	6;"	d	file:
+SRCS	Makefile	/^SRCS = $(wildcard .\/*.c)$/;"	m
+VOC_DIRECT_DOWN	onlinelist.h	7;"	d
+VOC_DIRECT_UP	onlinelist.h	6;"	d
+VOC_ENCODE_AMR	onlinelist.h	10;"	d
+VOC_ENCODE_EFR	onlinelist.h	9;"	d
+VOC_ENCODE_PCM	onlinelist.h	11;"	d
+VOC_FRAME_IP	onlinelist.h	13;"	d
+VOC_FRAME_RTP	onlinelist.h	15;"	d
+VOC_FRAME_UDP	onlinelist.h	14;"	d
+VOC_FRAME_VOC	onlinelist.h	16;"	d
+_ASN_H_	asn.h	3;"	d
+__COMMON_HEADER_H__	common_header.h	2;"	d
+__FTRANSFER_H__	ftransfer.h	2;"	d
+__MACLI_H__	macli.h	2;"	d
+__MFASRV_H__	mfasrv.h	2;"	d
+__MFA_H__	mfa.h	2;"	d
+__ONLINELIST_H__	onlinelist.h	2;"	d
+__SOCKOP_H__	sockop.h	2;"	d
+appname	macli.h	/^	char *appname;$/;"	m	struct:macli_para_s
+argc	mfa.h	/^	int argc;$/;"	m	struct:cmdline_para_s
+argv	mfa.h	/^	char **argv;$/;"	m	struct:cmdline_para_s
+asncallback	ftransfer.c	/^static void asncallback(unsigned int tag, int constructed, unsigned char * content, int contentlen, unsigned int *layer, int curlayer, void * para)$/;"	f	file:
+atomic_add	ftransfer.h	4;"	d
+calc_unsure_len	asn.c	/^int calc_unsure_len(unsigned char * pkt, int maxlen)$/;"	f
+channel	mfa.h	/^    unsigned int channel;$/;"	m	struct:svmmob_req_s
+channel	onlinelist.h	/^	unsigned int channel; \/\/通信识别码$/;"	m	struct:realtime_voice_s
+channel	onlinelist.h	/^	unsigned int channel;$/;"	m	struct:online_node_s
+cmdline_para_s	mfa.h	/^typedef struct cmdline_para_s {$/;"	s
+cmdline_para_t	mfa.h	/^}cmdline_para_t;$/;"	t	typeref:struct:cmdline_para_s
+deal_play_request	ftransfer.c	/^static int deal_play_request(int sockfd)$/;"	f	file:
+deal_realtime_voice	ftransfer.c	/^static int deal_realtime_voice(int sockfd)$/;"	f	file:
+deasn	asn.c	/^int deasn(unsigned char * pkt, int len, void * para, unsigned int * layer, int cur_layer, int max_layers, ASN_CALLBACK asn_callback)$/;"	f
+dir	mfasrv.h	/^	char dir[MFA_PATH_LEN];$/;"	m	struct:mfasrv_para_s
+downvoc	onlinelist.h	/^	realtime_voice_t *downvoc;$/;"	m	struct:online_node_s
+ftransfer_thread	ftransfer.c	/^void *ftransfer_thread(void *arg)$/;"	f
+g_counter_sn	macli.c	/^static unsigned int g_counter_sn = 0;$/;"	v	file:
+g_daemon_flag	main.c	/^unsigned char g_daemon_flag = 0;$/;"	v
+g_ma_srv_rcv_cmd	macli.c	/^unsigned short g_ma_srv_rcv_cmd;$/;"	v
+g_ma_srv_rcv_phase	macli.c	/^unsigned char g_ma_srv_rcv_phase;$/;"	v
+g_ma_srv_rcv_sn	macli.c	/^unsigned short g_ma_srv_rcv_sn;$/;"	v
+g_macli_para	macli.c	/^static macli_para_t g_macli_para;$/;"	v	file:
+g_mfa_counter	mfa.c	/^mfa_counter_t g_mfa_counter;$/;"	v
+g_mfa_mutex	mfa.c	/^pthread_mutex_t g_mfa_mutex;$/;"	v
+g_mfasrv_para	mfasrv.c	/^static mfasrv_para_t g_mfasrv_para;$/;"	v	file:
+g_mfasrv_reload_time	mfasrv.c	/^unsigned long long g_mfasrv_reload_time = 0;$/;"	v
+g_online_list	mfasrv.c	/^static online_list_t g_online_list;$/;"	v	file:
+g_reload_flag	macli.c	/^static unsigned int g_reload_flag = 0;$/;"	v	file:
+g_server_elmt_ma	macli.c	/^static unsigned char g_server_elmt_ma;$/;"	v	file:
+g_server_elmt_sguard	macli.c	/^static unsigned char g_server_elmt_sguard;$/;"	v	file:
+get_dms_conf	macli.c	/^static int get_dms_conf(macli_para_t *maclipara)$/;"	f	file:
+get_mfa_conf	mfasrv.c	/^static int get_mfa_conf(const char *path, mfasrv_para_t *para)$/;"	f	file:
+get_mfa_conf_path	mfasrv.c	/^static int get_mfa_conf_path(int argc, char *argv[], char *mfa_conf_path)$/;"	f	file:
+get_realtime_voice	ftransfer.c	/^static int get_realtime_voice(int sockfd, realtime_voice_t *voice)$/;"	f	file:
+get_reload_flag	macli.c	/^unsigned int get_reload_flag(void)$/;"	f
+get_status	macli.c	/^static uint16_t get_status(void)$/;"	f	file:
+get_svmmob_req	ftransfer.c	/^static int get_svmmob_req(int sockfd, svmmob_req_t *req)$/;"	f	file:
+get_tlc	asn.c	/^int get_tlc(unsigned char * pkt, int len, unsigned int * ptag, int * ptaglen, int * pconstructed, unsigned char ** pcontent, int * pcontentlen)$/;"	f
+header	onlinelist.h	/^	online_node_t *header;$/;"	m	struct:online_list_s
+init_log_para	mfa.c	/^void init_log_para(void)$/;"	f
+ip	mfa.h	/^	char ip[16];$/;"	m	struct:ipport_s
+ipport_s	mfa.h	/^typedef struct ipport_s {$/;"	s
+ipport_t	mfa.h	/^}ipport_t;$/;"	t	typeref:struct:ipport_s
+last_modify_time	onlinelist.h	/^	time_t last_modify_time;$/;"	m	struct:online_node_s
+len	mfa.h	/^    unsigned short len;$/;"	m	struct:svmmob_req_s
+ma_addr	macli.h	/^	ipport_t ma_addr;$/;"	m	struct:macli_para_s
+ma_cmd_parser	macli.c	/^static int ma_cmd_parser(uint16_t cmd, uint16_t sn, uint8_t *pkt, uint16_t pkt_len)$/;"	f	file:
+ma_cmd_reload	macli.c	/^static int ma_cmd_reload(uint8_t *data, uint32_t data_len)$/;"	f	file:
+ma_cmd_send_counter	macli.c	/^static int ma_cmd_send_counter(int sockfd)$/;"	f	file:
+ma_srv_init	macli.c	/^static int ma_srv_init(int fd)$/;"	f	file:
+ma_srv_recv	macli.c	/^static int ma_srv_recv(int fd)$/;"	f	file:
+ma_srv_send	macli.c	/^static int ma_srv_send(int fd)$/;"	f	file:
+macli_para_init	macli.c	/^static int macli_para_init(macli_para_t *maclipara, cmdline_para_t *cmdlpara)$/;"	f	file:
+macli_para_s	macli.h	/^typedef struct macli_para_s {$/;"	s
+macli_para_t	macli.h	/^}macli_para_t;$/;"	t	typeref:struct:macli_para_s
+macli_thread	macli.c	/^void *macli_thread(void *arg)$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+mfa_applog	mfa.c	/^void mfa_applog(char *buff, const char *pfile, const char *pfunc, int line, const char *fmt, ...)$/;"	f
+mfa_counter_s	mfa.h	/^typedef struct mfa_counter_s {$/;"	s
+mfa_counter_t	mfa.h	/^}mfa_counter_t;$/;"	t	typeref:struct:mfa_counter_s
+mfa_mutex_init	mfa.c	/^inline void mfa_mutex_init(void)$/;"	f
+mfa_mutex_lock	mfa.c	/^inline void mfa_mutex_lock(void)$/;"	f
+mfa_mutex_unlock	mfa.c	/^inline void mfa_mutex_unlock(void)$/;"	f
+mfaaddr	mfasrv.h	/^	ipport_t mfaaddr;$/;"	m	struct:mfasrv_para_s
+mfasrv_deal_request	mfasrv.c	/^static int mfasrv_deal_request(int listenfd)$/;"	f	file:
+mfasrv_para_get	mfasrv.c	/^inline mfasrv_para_t *mfasrv_para_get(void)$/;"	f
+mfasrv_para_init	mfasrv.c	/^int mfasrv_para_init(mfasrv_para_t *mfasrvpara, cmdline_para_t *cmdlpara)$/;"	f
+mfasrv_para_s	mfasrv.h	/^typedef struct mfasrv_para_s {$/;"	s
+mfasrv_para_t	mfasrv.h	/^}mfasrv_para_t;$/;"	t	typeref:struct:mfasrv_para_s
+mfasrv_thread	mfasrv.c	/^void *mfasrv_thread(void *arg)$/;"	f
+mntid	mfa.h	/^    unsigned long long mntid;$/;"	m	struct:svmmob_req_s
+mntid	onlinelist.h	/^	unsigned int mntid;$/;"	m	struct:online_node_s
+mntid	onlinelist.h	/^	unsigned long long mntid;   \/\/MNTID$/;"	m	struct:realtime_voice_s
+mutex	onlinelist.h	/^	pthread_mutex_t mutex;$/;"	m	struct:online_list_s
+next	mfa.h	/^	struct ipport_s *next;$/;"	m	struct:ipport_s	typeref:struct:ipport_s::ipport_s
+next	onlinelist.h	/^	struct online_node_s *next;$/;"	m	struct:online_node_s	typeref:struct:online_node_s::online_node_s
+online	mfa.h	/^    unsigned int online;$/;"	m	struct:svmmob_req_s
+online_list_append	onlinelist.c	/^void online_list_append(online_list_t *list, online_node_t *node)$/;"	f
+online_list_append_voice	ftransfer.c	/^static int online_list_append_voice(online_list_t *list, realtime_voice_t *voice)$/;"	f	file:
+online_list_clear	onlinelist.c	/^void online_list_clear(online_list_t *list)$/;"	f
+online_list_destroy	onlinelist.c	/^void online_list_destroy(online_list_t *list)$/;"	f
+online_list_find	onlinelist.c	/^online_node_t *online_list_find(online_list_t *list, unsigned long long mntid, unsigned int channel)$/;"	f
+online_list_get	mfasrv.c	/^inline online_list_t *online_list_get(void)$/;"	f
+online_list_init	onlinelist.c	/^void online_list_init(online_list_t *list)$/;"	f
+online_list_is_empty	onlinelist.c	/^bool online_list_is_empty(online_list_t *list)$/;"	f
+online_list_remove	onlinelist.c	/^void online_list_remove(online_list_t *list, online_node_t *node)$/;"	f
+online_list_s	onlinelist.h	/^typedef struct online_list_s {$/;"	s
+online_list_t	onlinelist.h	/^}online_list_t;$/;"	t	typeref:struct:online_list_s
+online_node_free	onlinelist.c	/^void online_node_free(online_node_t *node)$/;"	f
+online_node_s	onlinelist.h	/^typedef struct online_node_s {$/;"	s
+online_node_t	onlinelist.h	/^}online_node_t;$/;"	t	typeref:struct:online_node_s
+pack_realtime_voice	ftransfer.c	/^static int pack_realtime_voice(realtime_voice_t *up, realtime_voice_t *down, unsigned char *buf, unsigned int nbuf)$/;"	f	file:
+parse_realtime_voice	ftransfer.c	/^static int parse_realtime_voice(unsigned char *buf, unsigned int nbuf, realtime_voice_t *voice)$/;"	f	file:
+pid	macli.h	/^	unsigned int pid;	$/;"	m	struct:macli_para_s
+play_history_voice	ftransfer.c	/^static int play_history_voice(int sockfd, const char *dir, svmmob_req_t *req)$/;"	f	file:
+play_online_voice	ftransfer.c	/^static int play_online_voice(int sockfd, svmmob_req_t *req)$/;"	f	file:
+port	mfa.h	/^	unsigned short port;$/;"	m	struct:ipport_s
+prev	onlinelist.h	/^	struct online_node_s *prev;$/;"	m	struct:online_node_s	typeref:struct:online_node_s::online_node_s
+realtime_voice_calloc	onlinelist.c	/^realtime_voice_t *realtime_voice_calloc(void)$/;"	f
+realtime_voice_dup	onlinelist.c	/^realtime_voice_t *realtime_voice_dup(realtime_voice_t *voice)$/;"	f
+realtime_voice_free	onlinelist.c	/^void realtime_voice_free(realtime_voice_t *voice)$/;"	f
+realtime_voice_s	onlinelist.h	/^typedef struct realtime_voice_s {$/;"	s
+realtime_voice_t	onlinelist.h	/^}realtime_voice_t; $/;"	t	typeref:struct:realtime_voice_s
+register_ma_server	macli.c	/^static void register_ma_server(void)$/;"	f	file:
+register_sguard_server	macli.c	/^static void register_sguard_server(void)$/;"	f	file:
+reload_ma_connect	macli.c	/^static void reload_ma_connect(void)$/;"	f	file:
+search_filename	ftransfer.c	/^static int search_filename(const char *dir, const char *filename)$/;"	f	file:
+send_mfu_result	ftransfer.c	/^static int send_mfu_result(int sockfd, unsigned short type, unsigned short len, unsigned int ret, unsigned int filesize)$/;"	f	file:
+send_realtime_voice	ftransfer.c	/^static int send_realtime_voice(online_node_t *node, realtime_voice_t *voice)$/;"	f	file:
+set_reload_flag	macli.c	/^void set_reload_flag(unsigned int flag)$/;"	f
+sguard_addr	macli.h	/^	ipport_t sguard_addr;$/;"	m	struct:macli_para_s
+sguard_srv_init	macli.c	/^static int sguard_srv_init(int fd)$/;"	f	file:
+sguard_srv_recv	macli.c	/^static int sguard_srv_recv(int fd)$/;"	f	file:
+sguard_srv_send	macli.c	/^static int sguard_srv_send(int fd)$/;"	f	file:
+sn	macli.h	/^	unsigned short sn;$/;"	m	struct:macli_para_s
+sock_connect	sockop.c	/^int sock_connect(const char *ip, unsigned short port)$/;"	f
+sock_listen	sockop.c	/^int sock_listen(const char *ip, unsigned short port)$/;"	f
+sock_readable	sockop.c	/^bool sock_readable(int sockfd, int sec, int usec)$/;"	f
+sock_recv	sockop.c	/^int sock_recv(int sockfd, void *buf, int size, int *recved)$/;"	f
+sock_send	sockop.c	/^int sock_send(int sockfd, void *buf, int size, int *sended)$/;"	f
+sockfd	onlinelist.h	/^	int sockfd;$/;"	m	struct:online_node_s
+svmmob_req_invalid	mfa.h	/^	unsigned long long svmmob_req_invalid;$/;"	m	struct:mfa_counter_s
+svmmob_req_s	mfa.h	/^typedef struct svmmob_req_s {$/;"	s
+svmmob_req_t	mfa.h	/^}svmmob_req_t;$/;"	t	typeref:struct:svmmob_req_s
+svmmob_req_total	mfa.h	/^	unsigned long long svmmob_req_total;$/;"	m	struct:mfa_counter_s
+svmmob_req_valid	mfa.h	/^	unsigned long long svmmob_req_valid;$/;"	m	struct:mfa_counter_s
+svmmob_res_invalid	mfa.h	/^	unsigned long long svmmob_res_invalid;$/;"	m	struct:mfa_counter_s
+svmmob_res_total	mfa.h	/^	unsigned long long svmmob_res_total;$/;"	m	struct:mfa_counter_s
+svmmob_res_valid	mfa.h	/^	unsigned long long svmmob_res_valid;$/;"	m	struct:mfa_counter_s
+transfer_file_data	ftransfer.c	/^static int transfer_file_data(int sockfd, const char *dir, const char *filename)$/;"	f	file:
+type	mfa.h	/^    unsigned char type;$/;"	m	struct:svmmob_req_s
+unpack_svmmob_req	ftransfer.c	/^static int unpack_svmmob_req(char *bufp, svmmob_req_t *req)$/;"	f	file:
+upvoc	onlinelist.h	/^	realtime_voice_t *upvoc;$/;"	m	struct:online_node_s
+vocdata	onlinelist.h	/^	unsigned char *vocdata;$/;"	m	struct:realtime_voice_s
+vocdirect	onlinelist.h	/^	unsigned char vocdirect; \/\/1-up, 2-down, 3-不区分$/;"	m	struct:realtime_voice_s
+vocencode	onlinelist.h	/^	unsigned char vocencode; \/\/0x6E-EFR, 0x70-AMR, 0x08-PCM$/;"	m	struct:realtime_voice_s
+vocfile	mfa.h	/^    char vocfile[1024];$/;"	m	struct:svmmob_req_s
+vocframe	onlinelist.h	/^	unsigned char vocframe; \/\/帧类型，指上面的“语音数据”的帧格式，0-IP帧；1-UDP帧；2-RTP帧；3-语音帧。一般都是3，即纯语音数据$/;"	m	struct:realtime_voice_s
+voclen	onlinelist.h	/^	unsigned int voclen;$/;"	m	struct:realtime_voice_s
+vocsequence	onlinelist.h	/^	unsigned int vocsequence; \/\/序号$/;"	m	struct:realtime_voice_s
+voctime	onlinelist.h	/^	unsigned char voctime[20];   \/\/时间戳, 字符串形式YYYYMMDDHHMMSS$/;"	m	struct:realtime_voice_s
+xapplog	mfa.h	49;"	d

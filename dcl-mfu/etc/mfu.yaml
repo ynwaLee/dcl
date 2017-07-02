@@ -1,0 +1,40 @@
+%YAML 1.1
+---
+
+#local address
+mfu:
+    ip: 192.168.40.25
+    port: 8089
+
+#vpu file server address
+svmtel:
+  - id: 1
+    ip: 192.168.40.232
+    port: 2011
+  - id: 2
+    ip: 192.168.40.233
+    port: 2011
+
+#mfa address
+svmmob:
+  - id: 1
+    ip: 192.168.40.26
+    port: 9001
+
+voipA:
+  - id: 1
+    ip: 192.168.40.26
+    port: 2012
+    citycode: 300030
+
+voipB:
+  - id: 1
+    ip: 192.168.40.26
+    port: 2013
+
+log:
+  level: info
+  mask: 0
+
+
+...

@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+das:
+    signal-port: 59996
+    data-port: 59999
+    ip: 192.168.80.153
+svm:
+    server-ip: 192.168.80.165
+wireless-svm:
+    server-ip: 192.168.40.183
+    system-pwd: admin
+    operator-list: 1,2,3,4
+voip-a:
+- id: 1
+  server-ip: 192.168.80.172
+  system-pwd: opwd00
+  operator-list: 1,2,3,4
+- id: 2
+  server-ip: 192.168.80.172
+  system-pwd: opwd00
+  operator-list: 1,2,3,4
+  
+voip-b:
+    server-ip: 192.168.40.183
+    system-pwd: admin
+    operator-list: 1,2,3,4
+
+restore_system: svm,voip_a
+cfu-open:
+    port: 2100
+path:
+    save-file-directory: /usr/local/etc/rfu_data/
+log:
+    level: info
+    mask: 0
+...
+

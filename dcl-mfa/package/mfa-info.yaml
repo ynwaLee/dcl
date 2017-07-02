@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+mfa:
+  version: 2.01.BUILDSTR
+  config-path: /usr/local/etc/mfa/
+  set-config-path: 0
+  executives:
+  - exec:
+    cmd: mfa
+    status: daemon,keepalive
+...

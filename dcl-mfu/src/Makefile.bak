@@ -1,0 +1,19 @@
+
+ALL: WG729
+
+CC = gcc
+
+CFLAGS =  -g -O3 -Wall -Werror
+CPPFLSGS = 
+
+OBJECT = $(SRCS:%.c=%.o)
+
+
+WG729 : $(OBJECT)
+	$(CC) -o WG729 $(OBJECT)
+
+%.o : %.c 
+	$(CC) -c $(CFLAGS) $(CPPFLAGS)
+
+clean:
+	rm -rf *.o WG729

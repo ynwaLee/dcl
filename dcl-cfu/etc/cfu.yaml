@@ -1,0 +1,63 @@
+%YAML 1.1
+---
+local-ftp-user: semptian
+local-dirs:
+  ftp: /home/ftp
+  transfer: /home/transfer
+  backup: /home/backup
+
+local-backup-time: 1
+
+voip_cdr_filter_enable: 0
+voip_cdr_filter_rule: /usr/local/etc/cfu/voip_whitelist.ini
+
+remote-ftp:
+  mass-ip: 192.168.40.43
+  mass-user: semptian
+  mass-passwd: 123456
+  mass-dir: /das/mass
+  case-ip: 192.168.40.43
+  case-user: semptian
+  case-passwd: 123456
+  case-dir: /das/case
+  zip-ip: 192.168.40.43
+  zip-user: semptian
+  zip-passwd: 123456
+  zip-dir: /das/case
+
+lis:
+  ip: 192.168.40.43
+  port:
+
+citycode:
+  src-city-code: 10010
+  dec-city-code: 10086 
+
+rfu:
+  ip: 192.168.40.43
+  port: 2100
+
+online:
+  local-ip: 192.168.40.43
+  local-port: 20001
+  svm-ip: 192.168.40.229
+  svm-port: 2008
+  mobile-ip: 192.168.40.40
+  mobile-port: 2009
+  voip-a-ip: 192.168.40.40
+  voip-a-port: 21001
+  voip-b-ip: 192.168.40.40
+  voip-b-port: 21002
+
+enable:
+  svm: 1
+  mobile: 1
+  voip-a: 1
+  voip-b: 1
+  lis: 0
+
+log:
+  level: info
+  mask: 0
+
+...

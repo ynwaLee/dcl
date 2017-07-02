@@ -1,0 +1,27 @@
+CC = gcc
+CFLAGS = -Wall -Werror -O3 -g -I../../include
+
+LIBS = -L../../lib -lpthread -lyaml
+
+OBJS += cfu.o
+OBJS += conf_parser.o
+OBJS += ma_cli.o
+#OBJS += ftplib.o
+OBJS += yaml_conf.o
+OBJS += util-strlcpyu.o
+OBJS += util-strlcatu.o
+OBJS += ../../common/applog.o
+
+TARGET = cfu
+
+.PHONY: all clean
+
+all: $(TARGET)
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LIBS)
+
+$(OBJS): %.o : %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -rf $(OBJS) $(TARGET)

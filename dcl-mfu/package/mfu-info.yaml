@@ -1,0 +1,11 @@
+%YAML 1.1
+---
+mfu:
+  version: 2.01.BUILDSTR
+  config-path: /usr/local/etc/mfu/
+  set-config-path: 0
+  executives:
+  - exec:
+    cmd: mfu
+    status: daemon,keepalive
+...
